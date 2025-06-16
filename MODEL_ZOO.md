@@ -20,7 +20,8 @@ The model weights are also given by the links.
     <th>VisEvent<br>AUC</th>
     <th>TNL2K<br>AUC</th>
     <th>OTB99<br>AUC (%)</th>
-    <th>Models</th>
+    <th>Models<br>Baidu</th>
+    <th>Models<br>Huggingface</th>
   </tr>
   <tr>
     <td>SUTrack-T224</td>
@@ -36,6 +37,7 @@ The model weights are also given by the links.
     <td>60.9</td>
     <td>67.4</td>
     <td><a href="https://pan.baidu.com/s/1XizoKl6zduj6l8Tb3SQi2g?pwd=jqpb">[Download]</a></td>
+    <td><a href="https://huggingface.co/xche32/SUTrack">[Download]</a></td>
   </tr>
   <tr>
     <td>SUTrack-B224</td>
@@ -51,6 +53,7 @@ The model weights are also given by the links.
     <td>65.0</td>
     <td>70.8</td>
     <td><a href="https://pan.baidu.com/s/1XizoKl6zduj6l8Tb3SQi2g?pwd=jqpb">[Download]</a></td>
+    <td><a href="https://huggingface.co/xche32/SUTrack">[Download]</a></td>
   </tr>
   <tr>
     <td>SUTrack-B384</td>
@@ -66,6 +69,7 @@ The model weights are also given by the links.
     <td>65.6</td>
     <td>69.7</td>
     <td><a href="https://pan.baidu.com/s/1XizoKl6zduj6l8Tb3SQi2g?pwd=jqpb">[Download]</a></td>
+    <td><a href="https://huggingface.co/xche32/SUTrack">[Download]</a></td>
   </tr>
   <tr>
     <td>SUTrack-L224</td>
@@ -81,6 +85,7 @@ The model weights are also given by the links.
     <td>66.7</td>
     <td>72.7</td>
     <td><a href="https://pan.baidu.com/s/1XizoKl6zduj6l8Tb3SQi2g?pwd=jqpb">[Download]</a></td>
+    <td><a href="https://huggingface.co/xche32/SUTrack">[Download]</a></td>
   </tr>
   <tr>
     <td>SUTrack-L384</td>
@@ -96,10 +101,12 @@ The model weights are also given by the links.
     <td>67.9</td>
     <td>71.2</td>
     <td><a href="https://pan.baidu.com/s/1XizoKl6zduj6l8Tb3SQi2g?pwd=jqpb">[Download]</a></td>
+    <td><a href="https://huggingface.co/xche32/SUTrack">[Download]</a></td>
   </tr>
 </table>
 
-[Download Models](https://pan.baidu.com/s/1XizoKl6zduj6l8Tb3SQi2g?pwd=jqpb)
+[Download Models (Baidu)](https://pan.baidu.com/s/1XizoKl6zduj6l8Tb3SQi2g?pwd=jqpb)
+[Download Models (Huggingface)](https://huggingface.co/xche32/SUTrack)
 
 The downloaded checkpoints should be organized in the following structure
    ```
