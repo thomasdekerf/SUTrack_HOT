@@ -87,6 +87,11 @@ For RGB tracking:
             ...
             |-- TRAIN_11
             |-- TEST
+        -- vasttrack
+            |-- Aardwolf
+            |-- Accessory Box
+            ...
+            |-- Zither
    ```
 For Multi-Modal tracking (RGB-T234 and otb_lang is only for evaluation, thus can be ignored for training):
    ```
