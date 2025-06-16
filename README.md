@@ -1,10 +1,11 @@
 # SUTrack
 
-> [**SUTrack: Towards Simple and Unified Single Object Tracking**](https://pan.baidu.com/s/10cR4tQt3lSH5V2RNf7-3gg?pwd=pks2)<br>
+> [**SUTrack: Towards Simple and Unified Single Object Tracking**](https://ojs.aaai.org/index.php/AAAI/article/view/32223)<br>
 > accepted by AAAI2025<br>
 > [Xin Chen](https://scholar.google.com.hk/citations?user=A04HWTIAAAAJ), [Ben Kang](https://scholar.google.com.hk/citations?user=By9F6bwAAAAJ), Wanting Geng, [Jiawen Zhu](https://scholar.google.com.hk/citations?user=j_gYsS8AAAAJ), Yi Liu, [Dong Wang](http://faculty.dlut.edu.cn/wangdongice/zh_CN/index.htm), [Huchuan Lu](https://ice.dlut.edu.cn/lu/)
 
 This is an official pytorch implementation of the paper SUTrack: Towards Simple and Unified Single Object Tracking, a new unified framework for single- and multi-modal object tracking.
+All models are available for download from [Huggingface](https://huggingface.co/xche32/SUTrack) or [Baidu](https://pan.baidu.com/s/1XizoKl6zduj6l8Tb3SQi2g?pwd=jqpb).
 
 ## Highlights
 ### Unified Tracking Model
