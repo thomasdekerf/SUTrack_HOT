@@ -42,7 +42,7 @@ def names2datasets(name_list: list, settings, image_loader):
         assert name in ["LASOT", "GOT10K_vottrain", "GOT10K_votval", "GOT10K_train_full",
                         "COCO17", "VID", "TRACKINGNET", "IMAGENET1K",
                         "DepthTrack_train", "DepthTrack_val", "LasHeR_all", "LasHeR_train","LasHeR_val", "VisEvent",
-                        "REFCOCOG", "TNL2K_train", "OTB99_train","VASTTRACK"]
+                        "REFCOCOG", "TNL2K_train", "OTB99_train","VASTTRACK", "HOT"]
         if name == "LASOT":
             if settings.use_lmdb:
                 print("Building lasot dataset from lmdb")
@@ -187,6 +187,11 @@ def names2datasets(name_list: list, settings, image_loader):
                                      multi_modal_language=settings.multi_modal_language,
                                      use_nlp=settings.use_nlp['VISEVENT']
                                      ))
+        if name == "HOT":
+            datasets.append(HOT(settings.env.hot_dir, split='train', image_loader=image_loader,
+                                 multi_modal_vision=settings.multi_modal_vision,
+                                 multi_modal_language=settings.multi_modal_language,
+                                 use_nlp=settings.use_nlp['HOT']))
         if name == "REFCOCOG":
             datasets.append(RefCOCOSeq(settings.env.refcoco_dir, split="train", image_loader=image_loader,
                                        name="refcocog", splitBy="google",
