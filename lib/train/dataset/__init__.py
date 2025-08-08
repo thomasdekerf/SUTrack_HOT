@@ -16,6 +16,8 @@ from .imagenet22k import Imagenet22k
 from .lasher import LasHeR
 # RGBD dataloader
 from .depthtrack import DepthTrack
+# HOT dataloader
+from .hot import HOT
 # Event dataloader
 from .visevent import VisEvent
 # Language dataloader
